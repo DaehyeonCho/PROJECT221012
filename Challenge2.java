@@ -4,10 +4,10 @@ import java.util.Scanner;
 public class practice {
 	public static void main(String[] args) {
 		ArrayList<Character> stack = new ArrayList<Character>();
-		Scanner sc = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		System.out.print("6개의 학점을 빈 칸으로 분리 입력(A/B/C/D/F) >> ");
 		for(int i=0; i<6; i++) {
-			char c = sc.next().charAt(0);
+			char c = scanner.next().charAt(0);
 			stack.add(c);
 		}
 		int sum=0;
